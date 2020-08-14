@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PartyDistributed</string>
+    <string name="event">Event</string>
+    <string name="fee">Fee</string>
+</resources>
