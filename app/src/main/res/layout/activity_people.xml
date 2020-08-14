@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="56dp"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="200dp"
         android:text="add people" />
 
     <androidx.appcompat.widget.Toolbar
