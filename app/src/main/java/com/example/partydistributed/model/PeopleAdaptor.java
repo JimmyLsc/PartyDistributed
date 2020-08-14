@@ -46,7 +46,7 @@ public class PeopleAdaptor extends RecyclerView.Adapter<PeopleAdaptor.LinearView
     @NonNull
     @Override
     public LinearViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new LinearViewHolder(LayoutInflater.from(context).inflate(R.layout.note_layout, null));
+        return new LinearViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.note_layout, parent,false));
     }
 
     @Override
